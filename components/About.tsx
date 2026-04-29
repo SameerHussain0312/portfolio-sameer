@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -34,9 +35,13 @@ export default function About() {
           
           <div className="md:col-span-2 relative group max-w-[250px] mx-auto md:mx-0">
             <div className="absolute inset-0 border-2 border-primary translate-x-4 translate-y-4 rounded transition-transform group-hover:translate-x-2 group-hover:translate-y-2"></div>
-            <div className="relative bg-foreground/10 aspect-square rounded overflow-hidden z-10 flex items-center justify-center">
-              {/* Placeholder for Profile Image */}
-              <span className="text-foreground/30 font-medium">Profile Image</span>
+   <Image
+  src="/profile.jpg"
+  alt="Sameer Hussain"
+  fill
+  className="object-cover rounded-lg"
+/>
+              
             </div>
           </div>
         </div>
