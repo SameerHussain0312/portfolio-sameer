@@ -34,7 +34,7 @@ export default function About() {
           </div>
           
           <div className="md:col-span-2 relative group max-w-[250px] mx-auto md:mx-0">
-            <div className="absolute inset-0 border-2 border-primary translate-x-4 translate-y-4 rounded transition-transform group-hover:translate-x-2 group-hover:translate-y-2"></div>
+            <div className="relative w-[250px] h-[350px] mx-auto">
    <Image
   src="/profile.jpg"
   alt="Sameer Hussain"
